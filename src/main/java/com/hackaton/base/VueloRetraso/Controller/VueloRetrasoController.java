@@ -1,9 +1,9 @@
-package com.hackaton.base.VueloR.Controller;
+package com.hackaton.base.VueloRetraso.Controller;
 
 
-import com.hackaton.base.VueloR.Dto.VueloRetrasoRequest;
-import com.hackaton.base.VueloR.Dto.VueloRetrasoResponse;
-import com.hackaton.base.VueloR.Service.VueloRetrasoService;
+import com.hackaton.base.VueloRetraso.Dto.VueloRetrasoRequest;
+import com.hackaton.base.VueloRetraso.Dto.VueloRetrasoResponse;
+import com.hackaton.base.VueloRetraso.Service.VueloRetrasoService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,7 +15,7 @@ public class VueloRetrasoController {
 
     private final VueloRetrasoService service;
 
-    public VueloRetrasoController(VueloRetrasoService service){
+    public VueloRetrasoController(VueloRetrasoService service) {
         this.service = service;
     }
 

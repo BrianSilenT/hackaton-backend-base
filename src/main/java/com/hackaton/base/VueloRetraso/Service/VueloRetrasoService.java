@@ -1,8 +1,8 @@
-package com.hackaton.base.VueloR.Service;
+package com.hackaton.base.VueloRetraso.Service;
 
 
-import com.hackaton.base.VueloR.Dto.VueloRetrasoRequest;
-import com.hackaton.base.VueloR.Dto.VueloRetrasoResponse;
+import com.hackaton.base.VueloRetraso.Dto.VueloRetrasoRequest;
+import com.hackaton.base.VueloRetraso.Dto.VueloRetrasoResponse;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,10 +1,10 @@
-package com.hackaton.base.Cancel.Dto;
+package com.hackaton.base.Cancellation.Dto;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class CancelResponse {
+public class CancellationResponse {
     private boolean canceled ;
 }

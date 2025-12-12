@@ -1,4 +1,4 @@
-package com.hackaton.base.VueloR.Dto;
+package com.hackaton.base.VueloRetraso.Dto;
 
 
 import lombok.Getter;
